@@ -12,6 +12,7 @@ import sweden from "./music/sweden.mp3";
 import september from "./music/september.mp3";
 import ghostyboy from "./music/ghostyboy.mp3";
 import experience from "./music/experience.mp3";
+import idea22 from "./music/idea-22.mp3";
 
 function chillHop() {
   return [
@@ -102,6 +103,15 @@ function chillHop() {
       artist: "Ghostyboy",
       audio: ghostyboy,
       color: ["#1f1f1f", "#828282"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Idea 22",
+      cover: "https://i.scdn.co/image/ab67616d0000b273ea8460e3b95df64cdd3c9692",
+      artist: "Gibran Alcoler",
+      audio: idea22,
+      color: ["#181d23", "#728594"],
       id: uuidv4(),
       active: false,
     },
