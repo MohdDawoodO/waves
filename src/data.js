@@ -13,11 +13,15 @@ import september from "./music/september.mp3";
 import ghostyboy from "./music/ghostyboy.mp3";
 import experience from "./music/experience.mp3";
 import idea22 from "./music/idea-22.mp3";
+import destinationUnknown from "./music/destination-unknown.mp3";
+import illDoIt from "./music/ill-do-it.mp3";
+import roi from "./music/roi.mp3";
+import yourLoveIsMyDrug from "./music/your-love-is-my-drug.mp3";
 
 function chillHop() {
   return [
     {
-      name: "BBC Sherlock Theme",
+      name: "Sherlock Theme",
       cover: "https://i.scdn.co/image/ab67616d0000b2737c0d73cf3a7369efdd3cc847",
       artist: "Michael Price, David Arnold",
       audio: sherlock,
@@ -53,6 +57,15 @@ function chillHop() {
       active: false,
     },
     {
+      name: "Daylight",
+      cover: "https://i.scdn.co/image/ab67616d00001e02797b1f1ca8576715f8708f65",
+      artist: "Aiguille",
+      audio: "https://stream.chillhop.com/mp3/58858",
+      color: ["#ef8ea9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
       name: "Death Is No More",
       cover: "https://i.scdn.co/image/ab67616d0000b27369b608971ba7b3e6835e2189",
       artist: "Blessed Mane",
@@ -62,11 +75,11 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Daylight",
-      cover: "https://i.scdn.co/image/ab67616d00001e02797b1f1ca8576715f8708f65",
-      artist: "Aiguille",
-      audio: "https://stream.chillhop.com/mp3/58858",
-      color: ["#ef8ea9", "#ab417f"],
+      name: "Destination Unknown",
+      cover: "https://i.scdn.co/image/ab67616d00001e0285ff60eb1d25d1c310ff1be9",
+      artist: "Ugonna Onyekwe",
+      audio: destinationUnknown,
+      color: ["#00508f", "#007fb3"],
       id: uuidv4(),
       active: false,
     },
@@ -98,7 +111,7 @@ function chillHop() {
       active: false,
     },
     {
-      name: "I Am Never Enough",
+      name: "I am Never Enough",
       cover: "https://i.scdn.co/image/ab67616d0000b273c2d32d36ebd4853f2d8ceacd",
       artist: "Ghostyboy",
       audio: ghostyboy,
@@ -112,6 +125,15 @@ function chillHop() {
       artist: "Gibran Alcoler",
       audio: idea22,
       color: ["#181d23", "#728594"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "I'll do it",
+      cover: "https://i.scdn.co/image/ab67616d00001e02d37dee0d87190156c78e020d",
+      artist: "Heidi Montag",
+      audio: illDoIt,
+      color: ["#003770", "#956ca7"],
       id: uuidv4(),
       active: false,
     },
@@ -189,9 +211,18 @@ function chillHop() {
       active: false,
     },
     {
+      name: "Roi",
+      cover: "https://i.scdn.co/image/ab67616d00001e0205f5045b4ff6cb74fa963f96",
+      artist: "VIDEOCLUB",
+      audio: roi,
+      color: ["#101b2e", "#293068"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
       name: "September",
       cover: "https://i.scdn.co/image/ab67616d0000b2734285bbf51dd2f011b5998dfd",
-      artist: "sparky Deathcap",
+      artist: "Sparky Deathcap",
       audio: september,
       color: ["#6d755f", "#c8d1b7"],
       id: uuidv4(),
@@ -221,6 +252,15 @@ function chillHop() {
       artist: "Middle School, Aso, Aviino",
       audio: "https://stream.chillhop.com/mp3/10074",
       color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Your Love is My Drug",
+      cover: "https://i.scdn.co/image/ab67616d00001e026d0025197be66ddadfa18deb",
+      artist: "Kesha",
+      audio: yourLoveIsMyDrug,
+      color: ["#2a2b2a", "#454642"],
       id: uuidv4(),
       active: false,
     },
