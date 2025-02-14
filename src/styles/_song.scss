@@ -16,17 +16,18 @@
 
 @media screen and (max-width: 1024px) {
   .song-container {
+    min-height: 60vh;
     img {
-      width: 30%;
+      width: 35%;
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .song-container {
-    min-height: 58vh;
+    margin-top: 1rem;
     img {
-      width: 65%;
+      width: 72%;
     }
   }
 }
