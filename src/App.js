@@ -8,9 +8,11 @@ import "./styles/app.scss";
 
 function App() {
   //* Variables
+  const sortedSongs = data().sort((a, b) => a.name.localeCompare(b.name));
+
   const audioRef = useRef(null);
 
-  const [songs, setSongs] = useState(data());
+  const [songs, setSongs] = useState(sortedSongs);
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [libraryOpen, setLibraryOpen] = useState(false);
