@@ -17,6 +17,8 @@ import destinationUnknown from "./music/destination-unknown.mp3";
 import illDoIt from "./music/ill-do-it.mp3";
 import roi from "./music/roi.mp3";
 import yourLoveIsMyDrug from "./music/your-love-is-my-drug.mp3";
+import ariaMath from "./music/aria-math.mp3";
+import lightTheme from "./music/light-theme.mp3";
 
 function chillHop() {
   return [
@@ -124,7 +126,7 @@ function chillHop() {
       cover: "https://i.scdn.co/image/ab67616d0000b273c2d32d36ebd4853f2d8ceacd",
       artist: "Ghostyboy",
       audio: ghostyboy,
-      color: ["#1f1f1f", "#717171"],
+      color: ["#1f1f1f", "#636363"],
       id: uuidv4(),
       active: false,
     },
@@ -261,6 +263,24 @@ function chillHop() {
       artist: "Middle School, Aso, Aviino",
       audio: "https://stream.chillhop.com/mp3/10074",
       color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Aria Math",
+      cover: "https://i.scdn.co/image/ab67616d00001e024cf0b29eb06a92aa96acae64",
+      artist: "C418",
+      audio: ariaMath,
+      color: ["#410802", "#781104"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Light's Theme B",
+      cover: "https://i.scdn.co/image/ab67616d00001e02a676bf479cb5e2449693018a",
+      artist: "Deathnote",
+      audio: lightTheme,
+      color: ["#000000", "#212121"],
       id: uuidv4(),
       active: false,
     },
